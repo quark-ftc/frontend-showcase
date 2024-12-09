@@ -1,0 +1,10 @@
+# 构建输出目录
+storybook-static/
+
+# 依赖目录
+**/node_modules/
+
+# 缓存目录
+.turbo/
+.cache/
+.temp/
