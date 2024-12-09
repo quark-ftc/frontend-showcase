@@ -1,0 +1,10 @@
+{
+  "name": "vue-storybook",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "storybook": "wait-on tcp:20001 && storybook dev -p 20000",
+    "build-storybook": "storybook build -o ../../storybook-static"
+  }
+}

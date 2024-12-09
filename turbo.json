@@ -1,0 +1,24 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "react-storybook#storybook": {
+      "cache": false,
+      "persistent": true,
+      "dependsOn": []
+    },
+    "vue-storybook#storybook": {
+      "cache": false,
+      "persistent": true,
+      "dependsOn": [],
+      "outputs": []
+    },
+    "start-all-storybooks": {
+      "dependsOn": [
+        "vue-storybook#storybook",
+        "react-storybook#storybook"
+      ],
+      "cache": false,
+      "persistent": true
+    }
+  }
+}
